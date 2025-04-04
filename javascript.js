@@ -38,6 +38,7 @@ function playRound(humanChoice, computerChoice) {
     computerScore++;
     return `You lose! ${computerChoice} beats ${humanChoice}`;
 }
+
 }
 
 const humanSelection = getHumanChoice();
@@ -45,13 +46,26 @@ const computerSelection = getComputerChoice();
 
 playRound(humanSelection, computerSelection);
 
+}
+let playRound = (humanSelection, computerSelection) => {
+  let winner = "";
+  if (humanSelection === computerSelection) {
+    winner = "tie";
+  } else if (humanSelection > computerSelection) {
+    winner = "player wins";
+  } else {
+    winner = "computer wins";
+  }
 
+  return console.log(winner);
+};
 
-function playRound() {
-  console.log("Let's play");
+let i = 0;
+while (i < 5) {
+  //here is the change
+  let humanChoice = prompt("Select your action").toLowerCase();
+  let computerChoice = getComputerChoice();
+  playRound(humanChoice, computerChoice);
+  i++;
 }
 
-for (let i = 0; i < 5; i++) {
-  playRound();
-}
-}
