@@ -1,0 +1,35 @@
+[33mcommit dcd6c68ecb365ba6fb61ca8bc672c24253c9fbec[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/rps-ui[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mrps-ui[m[33m, [m[1;32mnewbranchrock[m[33m)[m
+Author: Bethany Putzer <bethyi425@gmail.com>
+Date:   Mon Apr 7 14:20:10 2025 -0400
+
+    Syntax errors, duplicate code cleaned up
+
+[33mcommit d842ff4ffbd906d32f1fc0d4baa893b74157c5c2[m
+Author: Bethany Putzer <bethyi425@gmail.com>
+Date:   Fri Apr 4 10:23:43 2025 -0400
+
+    successfully played 5 rounds
+
+[33mcommit 66e6a9f60f090c6e083cf6854961bde38f8b92b9[m
+Author: Bethany Putzer <bethyi425@gmail.com>
+Date:   Fri Apr 4 09:54:13 2025 -0400
+
+    console displays my choice and computer choice. Scores recorded.
+
+[33mcommit abe19eb3b62860f907a571088daec5224c4bd0a3[m
+Author: Bethany Putzer <bethyi425@gmail.com>
+Date:   Thu Mar 27 14:34:12 2025 -0400
+
+    Add javascript.js
+
+[33mcommit dbfff69b04abe0e9ca016cbe0677b4df258dd1c0[m
+Author: Bethany Putzer <bethyi425@gmail.com>
+Date:   Thu Mar 27 14:31:42 2025 -0400
+
+    Add index.html
+
+[33mcommit 4e4223d41431400785864d608d466023910f8bb1[m
+Author: bputzer0628 <170356972+bputzer0628@users.noreply.github.com>
+Date:   Mon Mar 24 14:15:27 2025 -0400
+
+    Initial commit
